@@ -43,7 +43,7 @@ function getChampion(locale) {
     if (champ == "Jarvaniv") champ = "JarvanIV"
     if (champ == "Tahmkench") champ = "TahmKench"
     var rand_skin = getRandomInt(0, 7);
-    var link = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg";
+    var link = "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg";
     //link champ
     link = link.replace(/h\/.*_/, "h/" + champ + "_");
     //link
