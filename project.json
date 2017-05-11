@@ -1,0 +1,47 @@
+{
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"region" : 
+			{
+				"options" : 
+				[
+					{
+						"label" : "Russian",
+						"value" : "ru_RU"
+					},
+					{
+						"label" : "English",
+						"value" : "en_US"
+					}
+				],
+				"order" : 0,
+				"text" : "Region",
+				"type" : "combo",
+				"value" : 0
+			},
+			"schemecolor" : 
+			{
+				"order" : 3,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"time" : 
+			{
+				"max" : 30,
+				"min" : 1,
+				"order" : 1,
+				"text" : "Time (s) ",
+				"type" : "slider",
+				"value" : 30
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Technology" ],
+	"title" : "League of Legends Splashes",
+	"type" : "web"
+}

@@ -1,0 +1,28 @@
+
+        *{
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+        }
+        #main_img{
+                width:100% ;
+                z-index: 0;
+        }
+        body{
+                background-color: #000;
+        }
+        #my_c{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width:30%;
+                height:15%;
+                background-color:rgba(255, 255, 255, 0.52);
+                
+                z-index: 10;
+        }
+        i
+        {
+            display: none;
+            cursor: pointer;
+        }
