@@ -30,7 +30,7 @@ function getRandomInt(min, max) {
 
 //main function
 function getChampion(locale) {
-  var json_link = "http://ddragon.leagueoflegends.com/cdn/6.24.1/data/$loc$/champion.json";
+  var json_link = "https://ddragon.leagueoflegends.com/cdn/6.24.1/data/$loc$/champion.json";
   //link locale
   json_link = json_link.replace("$loc$", locale);
 
